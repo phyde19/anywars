@@ -13,6 +13,8 @@ Create a simple, robust configuration file parser that loads settings from a bas
    - Integers (convert string like "42" to integer 42)
    - Floats (convert string like "3.14" to float 3.14)
    - Booleans (convert "true"/"false" to True/False, case-insensitive)
+   - Quoted values (e.g., `key="value"`) should have quotes removed but always remain strings
+   - Quoted numbers (e.g., `key="42"`) should remain strings, not be converted to numbers
 4. Skip empty lines and lines starting with `#` (comments)
 5. Handle whitespace gracefully (trim whitespace around keys and values)
 6. Implement proper error handling for missing files or parsing errors
