@@ -83,10 +83,17 @@ anywars/
    "I'm ready to submit my final solution"
    ```
 
-5. **View model solutions** (only after passing all tests):
+5. **View model solutions and get feedback** (only after passing all tests):
    ```
-   "Show me the model solutions"
+   "Show me the model solutions and analyze my solution"
    ```
+   This will:
+   - Create a `model_solutions.py` file with 4-5 alternative approaches
+   - Generate a `solution_analysis.md` with feedback on your solution including:
+     - Strengths
+     - Areas for improvement
+     - Comparison with alternative approaches
+     - Key takeaways
 
 ### Recovery Instructions
 
